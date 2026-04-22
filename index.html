@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">  
+  <title>The God Site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+
+  <div class="offer-bar">
+    <h4 class="getOffer">Get up to 30% off on all Handbags...</h4>
+    <button class="close-Offer-bar"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">LOGO</div>
+  <ul class="nav-links">
+    <li><a href="#">New In</a></li>
+    <li><a href="#">Collections</a></li>
+    <li><a href="#">Brands</a></li>
+    <li><a href="#">Sale</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    <button><i class="fa-solid fa-cart-shopping"></i></button>
+    <button class="btn-fill">Sign In</button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+
+  <!-- COL 1 · CATEGORIES -->
+  <aside class="sidebar">
+    <p class="sidebar-title">Browse by Category</p>
+
+    <div class="cat-item active">
+      <span><span class="cat-label">Handbags</span></span>
+      <span class="cat-count">142</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Footwear</span></span>
+      <span class="cat-count">98</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Jewellery</span></span>
+      <span class="cat-count">74</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Eyewear</span></span>
+      <span class="cat-count">55</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Watches</span></span>
+      <span class="cat-count">61</span>
+    </div>
+
+    <div class="sidebar-divider"></div>
+
+    <div class="cat-item">
+      <span><span class="cat-label">Apparel</span></span>
+      <span class="cat-count">210</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Beauty</span></span>
+      <span class="cat-count">87</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Travel</span></span>
+      <span class="cat-count">39</span>
+    </div>
+    <div class="cat-item">
+      <span><span class="cat-label">Home Decor</span></span>
+      <span class="cat-count">103</span>
+    </div>
+
+    <div class="sidebar-promo">
+      <p>Limited time</p>
+      <strong>30% OFF</strong>
+      <span>On all Handbags</span>
+    </div>
+  </aside>
+
+  <!-- COL 2 · PRODUCTS -->
+  <main class="product-area">
+
+    <!-- Header / Filters -->
+    <div class="product-header">
+      <div class="product-header-left">
+        <h1>Designer <em>Handbags</em></h1>
+        <p>142 curated pieces · Free shipping over ₹5,000</p>
+      </div>
+      <div class="filters">
+        <button class="filter-chip active">All</button>
+        <button class="filter-chip">New In</button>
+        <button class="filter-chip">On Sale</button>
+        <button class="filter-chip">Under ₹10k</button>
+        <select class="sort-select">
+          <option>Sort: Featured</option>
+          <option>Price: Low–High</option>
+          <option>Price: High–Low</option>
+          <option>Best Rated</option>
+          <option>Newest</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- 5-column Product Grid (10 cards = 2 rows) -->
+    <div class="product-grid">
+
+      <!-- Row 1 -->
+      <article class="card">
+        <span class="card-badge badge-new">New</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#1a1206,#2e2010)">👜</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Tote Bag</span>
+          <p class="card-name">Structured Leather Tote</p>
+          <div class="card-rating"><span class="stars">★★★★★</span> 4.9 (128)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹14,500</span>
+            <span class="price-old">₹18,000</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-badge badge-sale">−20%</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#0f1a1a,#102020)">👛</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Clutch</span>
+          <p class="card-name">Woven Raffia Clutch</p>
+          <div class="card-rating"><span class="stars">★★★★☆</span> 4.4 (64)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹7,200</span>
+            <span class="price-old">₹9,000</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-badge badge-hot">Hot</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#1a0f0a,#2a160e)">🎒</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Backpack</span>
+          <p class="card-name">Mini Quilted Backpack</p>
+          <div class="card-rating"><span class="stars">★★★★★</span> 4.8 (215)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹11,900</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#0a0f1a,#0e142a)">💼</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Crossbody</span>
+          <p class="card-name">Croc-Embossed Crossbody</p>
+          <div class="card-rating"><span class="stars">★★★★☆</span> 4.5 (87)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹9,850</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-badge badge-sale">−30%</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#151205,#201c08)">👝</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Satchel</span>
+          <p class="card-name">Vintage Leather Satchel</p>
+          <div class="card-rating"><span class="stars">★★★★★</span> 4.7 (176)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹12,600</span>
+            <span class="price-old">₹18,000</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <!-- Row 2 -->
+      <article class="card">
+        <span class="card-badge badge-new">New</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#1a1215,#22151a)">👜</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Tote Bag</span>
+          <p class="card-name">Canvas Day Tote</p>
+          <div class="card-rating"><span class="stars">★★★★☆</span> 4.3 (52)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹6,400</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#0d1812,#101f16)">👛</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Clutch</span>
+          <p class="card-name">Beaded Evening Clutch</p>
+          <div class="card-rating"><span class="stars">★★★★★</span> 4.9 (39)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹8,750</span>
+            <span class="price-old">₹10,500</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-badge badge-hot">Hot</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#1a0e0e,#2a1212)">🎒</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Shoulder Bag</span>
+          <p class="card-name">Chain-Strap Shoulder Bag</p>
+          <div class="card-rating"><span class="stars">★★★★★</span> 5.0 (301)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹16,200</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-badge badge-sale">−15%</span>
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#0e0e1a,#141428)">💼</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Crossbody</span>
+          <p class="card-name">Suede Flap Crossbody</p>
+          <div class="card-rating"><span class="stars">★★★★☆</span> 4.6 (93)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹10,200</span>
+            <span class="price-old">₹12,000</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="card-wish">♡</span>
+        <div class="card-img">
+          <div class="img-placeholder" style="background:linear-gradient(135deg,#141a0f,#1b220f)">👝</div>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Bucket Bag</span>
+          <p class="card-name">Drawstring Bucket Bag</p>
+          <div class="card-rating"><span class="stars">★★★★☆</span> 4.2 (47)</div>
+        </div>
+        <div class="card-footer">
+          <div class="card-price">
+            <span class="price-current">₹8,100</span>
+          </div>
+          <button class="btn-cart">+ Cart</button>
+        </div>
+      </article>
+
+    </div><!-- /grid -->
+  </main>
+
+</section>
+
+
+
+
+
+</body>
+<script src="./Script.js"></script>
+</html>
